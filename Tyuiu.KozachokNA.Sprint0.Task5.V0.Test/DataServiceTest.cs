@@ -1,6 +1,6 @@
-using Tyuiu.KozachokNA.Sprint0.Task4.V0.Lib;
+using Tyuiu.KozachokNA.Sprint0.Task5.V0.Lib;
 
-namespace Tyuiu.KozachokNA.Sprint0.Task4.V0.Test
+namespace Tyuiu.KozachokNA.Sprint0.Task5.V0.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -13,7 +13,7 @@ namespace Tyuiu.KozachokNA.Sprint0.Task4.V0.Test
         [TestMethod]
         public void CheckedSubstractionValid()
         {
-            Assert.AreEqual(5, DataService.Substraction(10, 5));        
+            Assert.AreEqual(5, DataService.Substraction(10, 5));
         }
         [TestMethod]
         public void CheckedMultiplicationValid()
